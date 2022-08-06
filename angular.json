@@ -28,7 +28,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/reset.scss",
+              "src/styles/variables.scss",
+              "src/styles/fonts.scss",
+              "src/styles/typography.scss",
+              "src/styles/global.scss"
             ],
             "scripts": []
           },

@@ -30,8 +30,14 @@
     "max-classes-per-file": false,
     "max-line-length": [
       true,
-      140
+      {
+        "limit": 1200,
+        "ignore-pattern": "^import |^export {(.*?)}",
+        "check-strings": true,
+        "check-regex": true
+      }
     ],
+    "max-len": ["never"],
     "member-ordering": [
       true,
       {

@@ -1,0 +1,6 @@
+<div class="card">
+  <h1 class="card__heading heading heading--h1">Advice #{{ advice ? advice.slip?.id : '' }}</h1>
+  <p class="card__advice advice">{{ advice ? advice.slip?.advice : '' }}</p>
+  <app-separator></app-separator>
+  <app-dice (click)="getAdvice()"></app-dice>
+</div>

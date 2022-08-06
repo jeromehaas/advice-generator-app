@@ -1,0 +1,39 @@
+@import '/src/styles/variables.scss';
+
+.separator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &__line,
+  .line {
+    width: 64px;
+    height: 1px;
+    background-color: $grey;
+    border-radius: 2px;
+  }
+
+  &__symbol,
+  .symbol {
+    width: 48px;
+    height: 16px;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+
+    &__item,
+    .item {
+      width: 6px;
+      height: 16px;
+      height: 100%;
+      border-radius: 3px;
+      background-color: $cyan;
+    }
+
+  }
+
+
+
+}
