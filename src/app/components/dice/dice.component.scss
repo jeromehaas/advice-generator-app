@@ -24,11 +24,7 @@
     height: 24px;
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateX(90deg) rotateY(360deg) translateX(90);
-    animation-name: rotate;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
-    animation-timing-function: ease-in-out;
+    transition: all 1s ease;
 
     &__dot {
       width: 3px;
@@ -90,7 +86,7 @@
 
         & .cube__dot {
           top: 12px;
-          left: 9px;
+          left: 12px;
         }
 
       }
