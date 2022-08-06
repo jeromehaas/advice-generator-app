@@ -9,7 +9,7 @@ export class AdviceService {
   constructor(private httpClient: HttpClient) { }
 
   getAdvice = () => {
-    return this.httpClient.get('http://api.adviceslip.com/advice');
+    return this.httpClient.get('https://api.adviceslip.com/advice');
   };
 
 };
